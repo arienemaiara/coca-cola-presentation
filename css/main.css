@@ -820,8 +820,24 @@ button:focus {
 /* ==========================================================================
   8. Portfolio Section
    ========================================================================== */
+#portfolios {
+  background: rgb(23,23,23);
+  background: -moz-linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(73,73,73,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(73,73,73,1) 100%);
+  background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(73,73,73,1) 100%);
+}
+
 #portfolios .mix {
   padding: 10px;
+}
+
+#portfolios .section-header .section-title {
+  color: #FFFFFF;
+}
+
+#portfolios .section-header .section-subtitle {
+  color: #FFFFFF;
+  font-size: 18px;
 }
 
 #portfolios .portfolio-item .shot-item {
