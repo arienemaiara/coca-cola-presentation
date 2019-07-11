@@ -411,8 +411,13 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../img/main-coca-image.jpg) fixed no-repeat;
-  background-size: cover;
+  /* background: url(../img/main-coca-image.jpg) fixed no-repeat; */
+  background: url(../img/new-coca-cola.jpg) fixed no-repeat;
+  background-size: cover; 
+  /* background-image: url(../img/new-coca-cola.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover; */
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -435,17 +440,19 @@ button:focus {
 
 #hero-area .contents h1 {
   color: #fff;
-  font-size: 42px;
+  font-size: 52px;
   font-weight: 700;
   margin-bottom: 25px;
+  text-shadow: 3px 2px 1px rgb(175, 2, 17);
 }
 
 #hero-area .contents p {
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.5px;
+  text-shadow: 3px 2px 1px rgb(12, 12, 12);
 }
 
 #hero-area .contents .btn {
