@@ -1327,3 +1327,31 @@ footer {
 .copyright p a:hover {
   color: #E71B2A;
 }
+
+.section-text {
+  height: inherit;
+  padding: 80px 0 30px;
+}
+
+.section-image {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+}
+
+#section-image-1 {
+  background-image: url(../img/visual/img6.jpg);
+}
+
+#section-image-2 {
+  background-image: url(../img/visual/img3.jpg);
+}
+
+#section-image-3 {
+  background-image: url(../img/visual/img2.jpg);
+}
+
+#section-image-4 {
+  background-image: url(../img/visual/img1.jpg);
+}
